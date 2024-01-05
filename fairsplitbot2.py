@@ -381,10 +381,10 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 if __name__ == '__main__':
-    token_id = '6824458601:AAGrOOx8Vr1Wenm0mKQJnhGog2HhrK6min4'
+    #token_id = 
     application = ApplicationBuilder().token(token_id).build()
-    connection = create_connection_pool("mypool",5,"localhost", "root", '661063lt', 'EasySplit')
-# connection = create_connection("mypool",5,"jackclx.mysql.pythonanywhere-services.com", "jackclx", '661063lt', 'jackclx$EasySplit') 
+    #connection = 
+
 
     start_handler = CommandHandler('start', start)
     help_handler = CommandHandler ('help',help)
